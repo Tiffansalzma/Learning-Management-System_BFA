@@ -1,0 +1,82 @@
+body{
+    align-items: center;
+    justify-content: center;
+    background-image: url("Coming Soon.png");
+    background-size: auto;
+    background-repeat:no-repeat;
+    background-position-x: right;
+}
+
+.first img{
+    margin-right: 10px;
+}
+
+.image img{
+    float:right;
+}
+
+.data{
+    display: flex;
+    flex-direction: row;
+}
+
+.data1{
+    margin-right: 40px;
+}
+
+input[type=text]{
+    width: 320px;
+    height: 48px;
+    border-radius: 10px;
+}
+
+input[type=date]{
+    width: 320px;
+    height: 48px;
+    border-radius: 10px;
+}
+
+input[type=test-area]{
+    width: 665px;
+    height: 96px;
+    border-radius: 10px;
+}
+
+label{
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.data3 input[type=text]{
+    width: 665px;
+    height: 96px;
+    border-radius: 10px;
+}
+
+.data3{
+    margin-top: -130px;
+    margin-bottom: 20px;
+}
+
+.row input[type=button] {
+    width: 665px;
+    height: 48px;
+    background-color: #F9A215;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.login_register{
+    font-weight:500;
+}
+
+.login_register a{
+    color: #F9A215;
+    text-decoration: none;
+}
